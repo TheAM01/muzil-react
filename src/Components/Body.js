@@ -15,9 +15,13 @@ function Body() {
     return (
         <div className="content">
 
-            {
-               listItems
-            }
+            <h1 className="content_heading">Popular products today</h1>
+
+            <div className="products_showcase">
+                {
+                    listItems
+                }
+            </div>
 
         </div>
     )

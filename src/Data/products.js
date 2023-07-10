@@ -1,11 +1,11 @@
 const products = [
     {
         name: "Cocaine",
-        price: "$430",
+        price: "Rs 16000",
         thumbnail: "https://arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/XIEHMMOYG5CMBCK7ULQW6U6P6Y.jpg",
         url: "/products/cocaine",
         content: [
-            "5 grams of cocaine"
+            "1 gram of cocaine"
         ],
         reviews: [
             {
@@ -21,12 +21,75 @@ const products = [
         ]
     },
     {
+        name: "Amphetamines",
+        price: "Rs 3200",
+        thumbnail: "https://cdn.adf.org.au/media/images/amphetamines-social.2e16d0ba.fill-1200x1200.jpg",
+        url: "/products/amphetamines",
+        content: [
+            "1 gram of Amphetamines"
+        ],
+        reviews: [
+            {
+                author: "Drug regulation authority of Pakistan",
+                stars: 3,
+                content: "It is 0.15 pure. I can make better product than that."
+            },
+            {
+                author: "Charsi",
+                stars: 4,
+                content: "Very good and cheap."
+            }
+        ]
+    },
+    {
+        name: "Ecstasy",
+        price: "Rs 200",
+        thumbnail: "https://mydr.com.au/wp-content/uploads/2019/01/AdobeStock_109861388-scaled-e1618969753558.jpg",
+        url: "/products/ecstasy",
+        content: [
+            "1 5 gram pill of ecstasy/molly/MDMA (3,4-methylenedioxy-methamphetamine)"
+        ],
+        reviews: [
+            {
+                author: "Jason Brody",
+                stars: 5,
+                content: "Goes HARD!! If ur looking ot party with alcohol and stuff, you goota get these!!!"
+            },
+            {
+                author: "Felipe",
+                stars: 5,
+                content: "Very cheap and good pills, always satisfied."
+            }
+        ]
+    },
+    {
+        name: "Hashish",
+        price: "Rs 1000",
+        thumbnail: "https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2016/03/Marijuana-packets-confiscated-by-police.jpg",
+        url: "/products/hashish",
+        content: [
+            "1 packet of 5 grams of hashish"
+        ],
+        reviews: [
+            {
+                author: "Snoop Dogg",
+                stars: 5,
+                content: "Good product at good rates. Satisfied with the delivery especially cus it came in so cheap. Lookin for cheaper weed, this is the thing you need fo sho."
+            },
+            {
+                author: "Billa Bong",
+                stars: 1,
+                content: "Very expensive and deliverd very late after 5 days of when seller said time"
+            }
+        ]
+    },
+    {
         name: "Meth",
-        price: "$200",
+        price: "Rs 3500",
         thumbnail: "https://www.harmonyrecoverync.com/wp-content/uploads/2021/12/What-Does-Meth-Look-Like.jpg",
         url: "/products/meth",
         content: [
-            "2 ounce of meth"
+            "2 gram of meth"
         ],
         reviews: [
             {
@@ -48,11 +111,11 @@ const products = [
     },
     {
         name: "Heroin",
-        price: "$80",
+        price: "Rs 1000",
         thumbnail: "https://admin.sunrisehouse.com/wp-content/uploads/2018/05/drug-ring-bust-takes-2500-heroin-packets-a-month-off-nj-streets-400x267.jpg",
         url: "/products/heroin",
         content: [
-            "20 grams of heroin"
+            "2 grams of heroin"
         ],
         reviews: [
             {
