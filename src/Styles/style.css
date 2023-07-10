@@ -1,0 +1,120 @@
+body {
+  background-color: #c4d2d9;
+
+}
+
+:root {
+  --primary: #2D4356;
+  --secondary: #435B66;
+  --tertiary: #A76F6F;
+  --accent: #EAB2A0;
+
+  --font: #000;
+  --font-inverted: #fff;
+}
+
+.App * {
+  display: flex;
+}
+
+.logo_img {
+  user-select: none;
+  height: 1em;
+  margin: auto 10px auto 0;
+}
+
+.navigation {
+  background-color: var(--secondary);
+  width: auto;
+  justify-content: space-around;
+}
+
+.navigation .left {
+  user-select: none;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 25px;
+  padding: 10px;
+  background-color: white;
+}
+
+.navigation .right {
+  justify-content: center;
+  align-content: center;
+  border-bottom: 1px solid black;
+}
+
+.nav_link {
+  color: var(--font-inverted);
+  margin-right: 20px;
+  padding: 10px;
+  margin: auto 5px auto 5px;
+
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  /* color: var(--font); */
+  transition: 0.1s;
+  border-radius: 5px;
+}
+
+.nav_link:hover {
+  color: var(--font-inverted);
+  background-color: var(--accent);
+}
+
+.content {
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 100px;
+  background-color: var(--secondary);
+  flex-wrap: wrap;
+}
+
+.commerce_item_parent {
+  margin-right: 50px;
+  text-decoration: none;
+  padding: 10px;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid var(--primary);
+}
+
+/* .commerce_item_parent:nth-child(1)::after {
+  content: "Hot!";
+  border: 1px solid black;
+  position: absolute;
+  color: var(--font-inverted);
+} */
+
+
+.commerce_item_parent:nth-child(1)::before {
+  content: "HOT!";
+  position: absolute;
+  color: var(--font-inverted);
+  padding: 5px;
+  transform: translate(-10px, -10px);
+  background-color: red;
+  border-bottom-right-radius: 5px;
+}
+
+.commerce_item_parent:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+}
+
+.cmit_thumbnail {
+  margin-bottom: 10px;
+  border: 1px solid var(--primary);
+  width: auto;
+}
+
+.cmit_title {
+  color: var(--font);
+  font-size: 23px;
+}
+
+.cmit_price {
+  color: var(--accent);
+  /* font-weight: bold; */
+}
