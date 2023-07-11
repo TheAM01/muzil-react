@@ -1,5 +1,6 @@
 const products = [
     {
+        id: "cocaine",
         name: "Cocaine",
         price: "Rs 16000",
         thumbnail: "https://arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/XIEHMMOYG5CMBCK7ULQW6U6P6Y.jpg",
@@ -17,10 +18,16 @@ const products = [
                 author: "Anonymous",
                 stars: 5,
                 content: "good product bro, where do you guys operate? i swear im not one of the feds bro trsut me"
+            },
+            {
+                author: "Karim Khan",
+                stars: 5,
+                content: "bohat baap cheez hai bro mast zabrdast 💯💯💯. bas ik problem hai mehenga bht hai 😢. lekin overall sellar bht coperative hai aor item quality ka hota hai to pesa wasul hojat h"
             }
         ]
     },
     {
+        id: "amphetamines",
         name: "Amphetamines",
         price: "Rs 3200",
         thumbnail: "https://cdn.adf.org.au/media/images/amphetamines-social.2e16d0ba.fill-1200x1200.jpg",
@@ -42,6 +49,7 @@ const products = [
         ]
     },
     {
+        id: "ecstasy",
         name: "Ecstasy",
         price: "Rs 200",
         thumbnail: "https://mydr.com.au/wp-content/uploads/2019/01/AdobeStock_109861388-scaled-e1618969753558.jpg",
@@ -63,6 +71,7 @@ const products = [
         ]
     },
     {
+        id: "hashish",
         name: "Hashish",
         price: "Rs 1000",
         thumbnail: "https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2016/03/Marijuana-packets-confiscated-by-police.jpg",
@@ -84,7 +93,8 @@ const products = [
         ]
     },
     {
-        name: "Meth",
+        id: "meth",
+        name: "Methamphetamine",
         price: "Rs 3500",
         thumbnail: "https://www.harmonyrecoverync.com/wp-content/uploads/2021/12/What-Does-Meth-Look-Like.jpg",
         url: "/products/meth",
@@ -110,6 +120,7 @@ const products = [
         ]
     },
     {
+        id: "heroin",
         name: "Heroin",
         price: "Rs 1000",
         thumbnail: "https://admin.sunrisehouse.com/wp-content/uploads/2018/05/drug-ring-bust-takes-2500-heroin-packets-a-month-off-nj-streets-400x267.jpg",
@@ -122,6 +133,23 @@ const products = [
                 author: "Abdul C.",
                 stars: 3,
                 content: "Bhai product achi ha lekin price kam kardo"
+            }
+        ]
+    },
+    {
+        id: "lsd",
+        name: "LSD (lysergic-acid-diethylamide)",
+        price: "Rs 3000",
+        thumbnail: "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/480xAny/9/1/9/132919_Pink_Elephants_on_Parade_Blotter_LSD_Dumbo.jpg",
+        url: "/products/lsd",
+        content: [
+            "2 500mg tablets of lsd"
+        ],
+        reviews: [
+            {
+                author: "Gary",
+                stars: 5,
+                content: "Fuckin hell man this shot is GOOD... i been seeing worlds and trips are f'in good bro keep up the good stock buddy"
             }
         ]
     }

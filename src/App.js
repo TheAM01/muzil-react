@@ -4,27 +4,28 @@ import { Route, Routes, BrowserRouter as Router, useRoutes } from "react-router-
 import './Styles/index.css';
 import './Styles/style.css';
 
-import Navigation from './Components/Navigation.js';
-import Body from "./Components/Body";
-import ProductBody from "./Components/ProductBody.js";
+import Navigation from './Pages/Navigation.js';
+import Body from "./Pages/HomePage";
+import ProductBody from "./Pages/ProductBody.js";
+import CartPage from "./Pages/Cart";
 
 function App() {
 
   return (
     <Router>
       <Routes>
+
         <Route path="/" element={<HomePage />} />
+        <Route path="/cart" element={<CartPage />} />
+
+        <Route path="/products" element={<HomePage />} />
         <Route path="/products/:id" element={<ProductPage />} />
+
+        <Route path="/gallery/:id" element={<HomePage />} />
+
       </Routes>
     </Router>
   )
-
-  const elements = useRoutes([
-    {path: '/', element: <HomePage />},
-    {path: '/product/:id', element: <ProductPage />}
-  ])
-
-  return elements
 
 }
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 body {
   margin: 0;
@@ -12,4 +13,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.msg_snap {
+  flex-direction: column;
+  border: 2px solid yellow;
+  padding: 10px;
+  font-size: 20px;
+  color: yellow;
+  align-items: center;
+  background-color: transparent;
+  transition: 0.2s;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.msg_snap:hover {
+  box-shadow: black 0px 50px 100px -20px, #ffffff7f 0px 30px 60px -30px;
+  /* background-color: yellow; */
+  /* color: black; */
 }

@@ -9,6 +9,8 @@ body {
   --tertiary: #A76F6F;
   --accent: #EAB2A0;
 
+  --background: #c4d2d9;
+
   --font: #000;
   --font-inverted: #fff;
 }
@@ -31,8 +33,9 @@ body {
 
 .navigation .left {
   user-select: none;
-  font-family: 'Homemade Apple', cursive;
-  font-size: 25px;
+  font-family: 'Cookie', cursive;
+  text-transform: capitalize;
+  font-size: 30px;
   padding: 10px;
   background-color: white;
 }
@@ -60,11 +63,12 @@ body {
 }
 
 .nav_link:hover {
-  color: var(--font-inverted);
+  color: var(--font);
   background-color: var(--accent);
 }
 
 .content {
+  padding: 5px;
   align-content: center;
   align-items: center;
   flex-direction: column;
@@ -92,6 +96,7 @@ body {
 
 .content_heading {
   text-align: center;
+  color: var(--font-inverted);
 }
 
 /* .commerce_item_parent:nth-child(1)::after {
@@ -151,4 +156,189 @@ span.strikethrough {
   color: var(--accent);
   /* font-weight: bold; */
   margin-bottom: 10px;
+}
+
+.prdt_parent {
+  width: 50%;
+  background-color: var(--primary);
+  padding: 20px;
+  flex-direction: column;
+}
+
+.prdt_thumbnail_parent {
+  align-self: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: auto;
+}
+
+.prdt_thumbnail {
+  border-radius: 10px;
+  margin: auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.prdt_title {
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(0,0,0,0.3);
+  color: var(--font-inverted);
+  margin-bottom: 20px;
+  font-size: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prdt_price {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--accent);
+}
+
+.prdt_gallery {
+  margin-bottom: 20px;
+}
+
+.prdt_gallery_link {
+  text-decoration: none;
+  padding: 20px;
+  border: 1px solid var(--secondary);
+  width: 100%;
+  color: var(--accent);
+}
+
+.prdt_content {
+  border: 1px solid var(--secondary);
+  padding: 20px;
+  color: var(--font-inverted);
+  margin-bottom: 20px;
+}
+
+.buy_actions {
+  position: fixed;
+  background-color: var(--background);
+  padding: 10px;
+  bottom: 0;
+  justify-content: center;
+  border: 2px solid var(--primary);
+  width: 20%;
+  right: 0;
+}
+
+.add_to_cart {
+  border: 2px solid var(--accent);
+  background-color: transparent;
+  padding: 10px;
+  font-size: 17px;
+  color: var(--accent);
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.add_to_cart:hover {
+  background-color: var(--accent);
+  color: var(--font);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.prdt_reviews_parent {
+  flex-direction: column;
+  border: 1px solid var(--secondary);
+}
+
+.review_parent {
+  background-color: var(--secondary);
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid var(--secondary);
+  border-top: 1px solid var(--secondary);
+}
+
+.review_top {
+  flex-direction: row;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review_author {
+  color: var(--accent);
+  margin-right: 10px;
+}
+
+.review_stars {
+  color: var(--accent);
+}
+
+.review_content {
+  color: var(--font-inverted)
+}
+
+.cart_parent {
+  width: 70%;
+  padding: 50px;
+  flex-direction: column;
+}
+
+.crti_parent:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.crti_parent, .cart_sum {
+  border: 2px solid var(--primary);
+  width: auto;
+  padding: 10px;
+  /* overflow-x: hidden; */
+  flex-direction: row;
+  margin: 25px 0 25px 0;
+}
+
+.crti_thumbnail_parent {
+  background-color: black;
+  margin-right: 20px;
+}
+
+.crti_thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.crti_right {
+  flex-direction: column;
+  width: auto;
+  flex: 1;
+  /* border: 1px solid black; */
+  padding: 20px 20px 20px 0;
+}
+
+.crti_title {
+  font-size: 35px;
+  color: var(--font-inverted);
+}
+
+.crti_price, .crti_quantity {
+  margin-top: 20px;
+  font-size: 20px;
+  color: var(--accent);
+}
+
+/* .crti_quantity {
+  flex-grow: 1;
+} */
+
+.crti_sum {
+  justify-self: flex-end;
+  align-self: flex-end;
+  margin-top: auto;
+
+  font-size: 25px;
+  color: var(--font-inverted);
+}
+
+.cart_sum {
+  font-size: 25px;
+  justify-content: end;
+  background-color: var(--accent);
 }
