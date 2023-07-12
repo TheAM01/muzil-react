@@ -14,6 +14,7 @@ function Navigation() {
                 <a className="nav_link" href="/gallery">Picture gallery</a>
                 <a className="nav_link" href="/recently-sold">Recently sold products</a>
                 <a className="nav_link" href="/popular">Popular products</a>
+                <a className="nav_link" href="/cart">Cart</a>
             </div>
 
         </div>

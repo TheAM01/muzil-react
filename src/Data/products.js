@@ -139,11 +139,11 @@ const products = [
     {
         id: "lsd",
         name: "LSD (lysergic-acid-diethylamide)",
-        price: "Rs 3000",
+        price: "Rs 6000",
         thumbnail: "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/480xAny/9/1/9/132919_Pink_Elephants_on_Parade_Blotter_LSD_Dumbo.jpg",
         url: "/products/lsd",
         content: [
-            "2 500mg tablets of lsd"
+            "1 blotter tablet of lsd"
         ],
         reviews: [
             {

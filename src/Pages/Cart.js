@@ -1,6 +1,6 @@
 import Navigation from "./Navigation";
 import CartItems from "../Components/CartItems";
-import { getCookie } from "../Scripts/cart";
+import { getCookie, checkout } from "../Scripts/cart";
 import products from "../Data/products"
 
 function Cart() {
@@ -32,7 +32,10 @@ function Cart() {
                     {items}
                     <div className="cart_sum">
                         Your total is: Rs {total} /-
-                    </div>                    
+                    </div> 
+                    <div className="cart_checkout">
+                        <button className="check_out_button" onClick={ () => {checkout()} }>Check out</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -44,6 +47,7 @@ function mapper(item) {
     let m = products.find(p => p.id.toLowerCase() === item.id.toLowerCase());
         return (
             <CartItems
+                id={m.id}
                 key={m.id}
                 thumbnail={m.thumbnail}
                 title={m.name}

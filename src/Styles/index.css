@@ -15,6 +15,11 @@ code {
     monospace;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
 .msg_snap {
   flex-direction: column;
   border: 2px solid yellow;
@@ -26,10 +31,4 @@ code {
   transition: 0.2s;
   font-weight: bold;
   cursor: pointer;
-}
-
-.msg_snap:hover {
-  box-shadow: black 0px 50px 100px -20px, #ffffff7f 0px 30px 60px -30px;
-  /* background-color: yellow; */
-  /* color: black; */
 }

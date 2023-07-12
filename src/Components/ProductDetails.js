@@ -15,6 +15,7 @@ function ProductDetails(props) {
     
     console.log(reviews)
     return (
+
         <div className="prdt_parent">
 
             <div className="prdt_thumbnail_parent">
@@ -23,7 +24,12 @@ function ProductDetails(props) {
 
             <div className="prdt_title">
                 {props.title}
-                <button className="add_to_cart" onClick={() => {addToCart(props)}}>Add to cart</button>
+                <div className="cart_options">
+                    <div className="cart_quantity_parent">
+                        <input type="number" id="cart_quantity" className="cart_quantity" placeholder="amount"/>
+                    </div>
+                    <button className="add_to_cart" onClick={() => {addToCart(props)}}>Add to cart</button>
+                </div>
             </div>
 
             <div className="prdt_price">
@@ -45,7 +51,6 @@ function ProductDetails(props) {
             </div>
 
         </div>
-
 
     )
 }

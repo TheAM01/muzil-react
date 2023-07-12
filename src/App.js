@@ -8,6 +8,7 @@ import Navigation from './Pages/Navigation.js';
 import Body from "./Pages/HomePage";
 import ProductBody from "./Pages/ProductBody.js";
 import CartPage from "./Pages/Cart";
+import GalleryPage from "./Pages/Gallery";
 
 function App() {
 
@@ -20,8 +21,9 @@ function App() {
 
         <Route path="/products" element={<HomePage />} />
         <Route path="/products/:id" element={<ProductPage />} />
-
-        <Route path="/gallery/:id" element={<HomePage />} />
+        
+        <Route path="/gallery/" element={<GalleryPage />} />
+        <Route path="/gallery/:id" element={<GalleryPage />} />
 
       </Routes>
     </Router>

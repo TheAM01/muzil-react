@@ -1,3 +1,5 @@
+import { removeFromCart } from "../Scripts/cart"
+
 export default function CartItems(props) {
     return (
         <div className="crti_parent">
@@ -8,7 +10,10 @@ export default function CartItems(props) {
                 <div className="crti_title">{props.title}</div>
                 <div className="crti_price">Item price: {props.price}</div>
                 <div className="crti_quantity">Quantity: {props.quantity}</div>
-                <div className="crti_sum">Total: Rs {props.sum}</div>
+                <div className="crti_sum">
+                    <button className="remove_from_cart" onClick={() => {removeFromCart(props.id)}} >Remove from cart</button>
+                    Total: Rs {props.sum}
+                </div>
             </div>
         </div>
     )
