@@ -13,7 +13,7 @@ function GalleryPage() {
 
     if (!match || !params.id) {
         let links = gallery.map((i, k) => 
-            <a className="gallery_link_parent" href={"/gallery/" + i.id} key={k} >{i.id}</a>
+            <a className="gallery_link" href={"/gallery/" + i.id} key={k} >Gallery images for <span className="capitalize emphasis">{i.id}</span> ↗</a>
         )
         return (
             <div className="App">
@@ -36,7 +36,7 @@ function GalleryPage() {
         <div className="App">
             <Navigation />
             <div className="content">
-                <h1 className="content_heading">Gallery images for {match.id.toUpperCase()}</h1>
+                <h1 className="content_heading">Gallery images for <span className="capitalize">{match.id}</span></h1>
                 {element}
             </div>
         </div>

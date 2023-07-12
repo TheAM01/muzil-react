@@ -454,3 +454,17 @@ span.strikethrough {
   color: var(--secondary);
   border-radius: 10px;
 }
+
+.gallery_link {
+  text-decoration: none;
+  border: 1px solid var(--primary);
+  padding: 20px;
+  color: var(--font-inverted);
+  width: 50%;
+  margin-bottom: 20px;
+  transition: 0.05s;
+}
+
+.gallery_link:hover {
+  background-color: var(--primary);
+}
