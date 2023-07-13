@@ -25,6 +25,7 @@ function ProductBody() {
             <ProductDetails
                 key={product.id}
                 id={product.id}
+                category={product.category}
                 title={product.name}
                 price={product.price}
                 thumbnail={product.thumbnail}

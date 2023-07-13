@@ -198,6 +198,20 @@ span.strikethrough {
   margin-bottom: 20px;
 }
 
+.prdt_category a {
+  text-decoration: none;
+  color: var(--font-inverted);
+}
+
+.prdt_category {
+
+  margin-bottom: 20px;
+  border: 1px solid var(--secondary);
+  width: 100%;
+  padding: 20px;
+
+}
+
 .prdt_gallery_link {
   text-decoration: none;
   padding: 20px;
@@ -455,7 +469,7 @@ span.strikethrough {
   border-radius: 10px;
 }
 
-.gallery_link {
+.gallery_link, .category_link, .category_item_link {
   text-decoration: none;
   border: 1px solid var(--primary);
   padding: 20px;
@@ -467,4 +481,8 @@ span.strikethrough {
 
 .gallery_link:hover {
   background-color: var(--primary);
+}
+
+.category_link, .category_item_link {
+  color: var(--accent);
 }

@@ -42,6 +42,12 @@ function ProductDetails(props) {
                 </a> 
             </div>
 
+            <div className="prdt_category">
+                <a href={"/category/"+props.category.toLowerCase().replaceAll(' ', "-")}>
+                    Categorized as: <span className="emphasis">{props.category}</span>
+                </a>
+            </div>
+
             <div className="prdt_content">
                 Box content: {props.content.join(', ')}
             </div>

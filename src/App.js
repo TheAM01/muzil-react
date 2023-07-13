@@ -9,6 +9,8 @@ import Body from "./Pages/HomePage";
 import ProductBody from "./Pages/ProductBody.js";
 import CartPage from "./Pages/Cart";
 import GalleryPage from "./Pages/Gallery";
+import RecentlySold from "./Pages/RecentlySold";
+import Category from "./Pages/Category";
 
 function App() {
 
@@ -24,6 +26,11 @@ function App() {
         
         <Route path="/gallery/" element={<GalleryPage />} />
         <Route path="/gallery/:id" element={<GalleryPage />} />
+
+        <Route path="/recently-sold" element={<RecentlySold />} />
+
+        <Route path="/category/" element={<Category />} />
+        <Route path="/category/:category" element={<Category />} />
 
       </Routes>
     </Router>

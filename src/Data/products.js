@@ -5,6 +5,7 @@ const products = [
         price: "Rs 16000",
         thumbnail: "https://arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/XIEHMMOYG5CMBCK7ULQW6U6P6Y.jpg",
         url: "/products/cocaine",
+        category: "CNS stimulant",
         content: [
             "1 gram of cocaine"
         ],
@@ -32,6 +33,7 @@ const products = [
         price: "Rs 3200",
         thumbnail: "https://cdn.adf.org.au/media/images/amphetamines-social.2e16d0ba.fill-1200x1200.jpg",
         url: "/products/amphetamines",
+        category: "CNS stimulant",
         content: [
             "1 gram of Amphetamines"
         ],
@@ -54,6 +56,7 @@ const products = [
         price: "Rs 200",
         thumbnail: "https://mydr.com.au/wp-content/uploads/2019/01/AdobeStock_109861388-scaled-e1618969753558.jpg",
         url: "/products/ecstasy",
+        category: "hallucinogen",
         content: [
             "1 5 gram pill of ecstasy/molly/MDMA (3,4-methylenedioxy-methamphetamine)"
         ],
@@ -76,6 +79,7 @@ const products = [
         price: "Rs 1000",
         thumbnail: "https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2016/03/Marijuana-packets-confiscated-by-police.jpg",
         url: "/products/hashish",
+        category: "cannabis",
         content: [
             "1 packet of 5 grams of hashish"
         ],
@@ -98,6 +102,7 @@ const products = [
         price: "Rs 3500",
         thumbnail: "https://www.harmonyrecoverync.com/wp-content/uploads/2021/12/What-Does-Meth-Look-Like.jpg",
         url: "/products/meth",
+        category: "CNS stimulant",
         content: [
             "2 gram of meth"
         ],
@@ -125,6 +130,7 @@ const products = [
         price: "Rs 1000",
         thumbnail: "https://admin.sunrisehouse.com/wp-content/uploads/2018/05/drug-ring-bust-takes-2500-heroin-packets-a-month-off-nj-streets-400x267.jpg",
         url: "/products/heroin",
+        category: "narcotics",
         content: [
             "2 grams of heroin"
         ],
@@ -142,6 +148,7 @@ const products = [
         price: "Rs 6000",
         thumbnail: "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/480xAny/9/1/9/132919_Pink_Elephants_on_Parade_Blotter_LSD_Dumbo.jpg",
         url: "/products/lsd",
+        category: "hallucinogen",
         content: [
             "1 blotter tablet of lsd"
         ],
