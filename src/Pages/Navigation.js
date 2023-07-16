@@ -5,7 +5,7 @@ function Navigation() {
 
             <div className="left">
                 <img className="logo_img" src="https://www.svgrepo.com/show/128943/3-flowers.svg"/>
-                saste nashe
+                AM firearms
             </div>
 
             <div className="right">

@@ -1,165 +1,280 @@
 const products = [
     {
-        id: "cocaine",
-        name: "Cocaine",
-        price: "Rs 16000",
-        thumbnail: "https://arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/XIEHMMOYG5CMBCK7ULQW6U6P6Y.jpg",
-        url: "/products/cocaine",
-        category: "CNS stimulant",
+        id: "m4a1",
+        name: "M4A1 Airsoft Gun",
+        price: "Rs 15,000",
+        thumbnail: "https://cheapairsoft.eu/82-large_default/airsoft-spring-rifle-m4a1-with-metal-rails.jpg",
+        url: "/products/m4a1",
+        category: "Electric Rifles",
         content: [
-            "1 gram of cocaine"
+            "1 M4A1 airsoft gun",
+            "300 round high-cap magazine",
+            "Battery and charger"
         ],
         reviews: [
             {
-                author: "Muzil",
-                stars: 5,
-                content: "Amazing product man good af 💯💯. Been struggling with anxiety and this shit makes me forget allat."
-            },
-            {
-                author: "Anonymous",
-                stars: 5,
-                content: "good product bro, where do you guys operate? i swear im not one of the feds bro trsut me"
-            },
-            {
-                author: "Karim Khan",
-                stars: 5,
-                content: "bohat baap cheez hai bro mast zabrdast 💯💯💯. bas ik problem hai mehenga bht hai 😢. lekin overall sellar bht coperative hai aor item quality ka hota hai to pesa wasul hojat h"
-            }
-        ]
-    },
-    {
-        id: "amphetamines",
-        name: "Amphetamines",
-        price: "Rs 3200",
-        thumbnail: "https://cdn.adf.org.au/media/images/amphetamines-social.2e16d0ba.fill-1200x1200.jpg",
-        url: "/products/amphetamines",
-        category: "CNS stimulant",
-        content: [
-            "1 gram of Amphetamines"
-        ],
-        reviews: [
-            {
-                author: "Drug regulation authority of Pakistan",
-                stars: 3,
-                content: "It is 0.15 pure. I can make better product than that."
-            },
-            {
-                author: "Charsi",
+                author: "John Doe",
                 stars: 4,
-                content: "Very good and cheap."
-            }
-        ]
-    },
-    {
-        id: "ecstasy",
-        name: "Ecstasy",
-        price: "Rs 200",
-        thumbnail: "https://mydr.com.au/wp-content/uploads/2019/01/AdobeStock_109861388-scaled-e1618969753558.jpg",
-        url: "/products/ecstasy",
-        category: "hallucinogen",
-        content: [
-            "1 5 gram pill of ecstasy/molly/MDMA (3,4-methylenedioxy-methamphetamine)"
-        ],
-        reviews: [
-            {
-                author: "Jason Brody",
-                stars: 5,
-                content: "Goes HARD!! If ur looking ot party with alcohol and stuff, you goota get these!!!"
+                content: "Great gun! Accurate and reliable."
             },
             {
-                author: "Felipe",
+                author: "Jane Smith",
                 stars: 5,
-                content: "Very cheap and good pills, always satisfied."
+                content: "Love this airsoft gun. Solid build quality."
             }
         ]
     },
     {
-        id: "hashish",
-        name: "Hashish",
-        price: "Rs 1000",
-        thumbnail: "https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2016/03/Marijuana-packets-confiscated-by-police.jpg",
-        url: "/products/hashish",
-        category: "cannabis",
+        id: "p226",
+        name: "SIG P226 Airsoft Pistol",
+        price: "Rs 5,000",
+        thumbnail: "https://www.greentophuntfish.com/media/catalog/product/g/t/gto358472__1.jpg?store=default&image-type=image",
+        url: "/products/p226",
+        category: "Gas Blowback Pistols",
         content: [
-            "1 packet of 5 grams of hashish"
+            "1 SIG P226 airsoft pistol",
+            "20 round magazine",
+            "Green gas canister"
         ],
         reviews: [
             {
-                author: "Snoop Dogg",
+                author: "Mark Johnson",
                 stars: 5,
-                content: "Good product at good rates. Satisfied with the delivery especially cus it came in so cheap. Lookin for cheaper weed, this is the thing you need fo sho."
+                content: "Excellent pistol. Feels and shoots like the real thing."
             },
             {
-                author: "Billa Bong",
-                stars: 1,
-                content: "Very expensive and deliverd very late after 5 days of when seller said time"
+                author: "Sarah Wilson",
+                stars: 4,
+                content: "Good value for money. Solid performance."
             }
         ]
     },
     {
-        id: "meth",
-        name: "Methamphetamine",
-        price: "Rs 3500",
-        thumbnail: "https://www.harmonyrecoverync.com/wp-content/uploads/2021/12/What-Does-Meth-Look-Like.jpg",
-        url: "/products/meth",
-        category: "CNS stimulant",
+        id: "psg1",
+        name: "Airsoft PSG1",
+        price: "Rs 25,000",
+        thumbnail: "https://i.imgur.com/w6OICvk.jpg",
+        url: "/products/sniper",
+        category: "Spring Sniper Rifles",
         content: [
-            "2 gram of meth"
+            "1 airsoft sniper rifle",
+            "Scope",
+            "Bipod"
         ],
         reviews: [
             {
-                author: "Saim",
-                stars: 5,
-                content: "Good, reciommended"
+                author: "Ryan Thompson",
+                stars: 4,
+                content: "Impressive range and accuracy. Great for long-range shots."
             },
             {
-                author: "Tuco Salamanca",
+                author: "Emily Davis",
                 stars: 5,
-                content: "BOOYAH WOW TIGHT TIGHT TIGHT ESE!"
+                content: "Powerful and reliable. My favorite sniper rifle."
+            }
+        ]
+    },
+    {
+        id: "mp5",
+        name: "MP5 Airsoft Gun",
+        price: "Rs 12,000",
+        thumbnail: "https://www.therange702.com/wp-content/uploads/2016/08/Mp5-Features.png",
+        url: "/products/mp5",
+        category: "Electric Rifles",
+        content: [
+            "1 MP5 airsoft gun",
+            "200 round mid-cap magazine",
+            "Battery and charger"
+        ],
+        reviews: [
+            {
+                author: "Michael Anderson",
+                stars: 5,
+                content: "Awesome gun! Compact and easy to maneuver."
             },
             {
-                author: "Jesse Pinkman",
-                stars: 5,
-                content: "This shit is the BOMB yo"
+                author: "Amy Roberts",
+                stars: 4,
+                content: "Good quality and reliable performance."
             }
         ]
     },
     {
-        id: "heroin",
-        name: "Heroin",
-        price: "Rs 1000",
-        thumbnail: "https://admin.sunrisehouse.com/wp-content/uploads/2018/05/drug-ring-bust-takes-2500-heroin-packets-a-month-off-nj-streets-400x267.jpg",
-        url: "/products/heroin",
-        category: "narcotics",
+        id: "glock17",
+        name: "Glock 17 Airsoft Pistol",
+        price: "Rs 4,500",
+        thumbnail: "https://assets.basspro.com/image/list/fn_select:jq:first(.%5B%5D%7Cselect(.public_id%20%7C%20endswith(%22main%22)))/997814.json",
+        url: "/products/glock17",
+        category: "Gas Blowback Pistols",
         content: [
-            "2 grams of heroin"
+            "1 Glock 17 airsoft pistol",
+            "25 round magazine",
+            "Green gas canister"
         ],
         reviews: [
             {
-                author: "Abdul C.",
-                stars: 3,
-                content: "Bhai product achi ha lekin price kam kardo"
+                author: "David Thompson",
+                stars: 4,
+                content: "Solid pistol. Feels realistic and performs well."
+            },
+            {
+                author: "Sophia Martinez",
+                stars: 5,
+                content: "Great value for the price. Accurate and reliable."
             }
         ]
     },
     {
-        id: "lsd",
-        name: "LSD (lysergic-acid-diethylamide)",
-        price: "Rs 6000",
-        thumbnail: "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/480xAny/9/1/9/132919_Pink_Elephants_on_Parade_Blotter_LSD_Dumbo.jpg",
-        url: "/products/lsd",
-        category: "hallucinogen",
+        id: "ak47",
+        name: "AK47 Airsoft Gun",
+        price: "Rs 18,000",
+        thumbnail: "https://images-na.ssl-images-amazon.com/images/I/51DaW23Rx8L._AC_UL600_SR600,600_.jpg",
+        url: "/products/ak47",
+        category: "Electric Rifles",
         content: [
-            "1 blotter tablet of lsd"
+            "1 AK47 airsoft gun",
+            "500 round high-cap magazine",
+            "Battery and charger"
         ],
         reviews: [
             {
-                author: "Gary",
+                author: "Robert Johnson",
                 stars: 5,
-                content: "Fuckin hell man this shot is GOOD... i been seeing worlds and trips are f'in good bro keep up the good stock buddy"
+                content: "Amazing rifle! Sturdy build and impressive firepower."
+            },
+            {
+                author: "Olivia Wilson",
+                stars: 4,
+                content: "Solid performance. Good for both indoor and outdoor play."
             }
         ]
-    }
+    },
+    {
+        id: "ump45",
+        name: "UMP45 Airsoft Gun",
+        price: "Rs 13,500",
+        thumbnail: "https://special-ops.org/wp-content/uploads/2022/08/HK-UMP45-scaled.jpg",
+        url: "/products/ump45",
+        category: "Electric Rifles",
+        content: [
+            "1 UMP45 airsoft gun",
+            "250 round high-cap magazine",
+            "Battery and charger"
+        ],
+        reviews: [
+            {
+                author: "Daniel Adams",
+                stars: 4,
+                content: "Great SMG. Compact and reliable."
+            },
+            {
+                author: "Lily Thompson",
+                stars: 5,
+                content: "Impressive build quality. Performs well in CQB scenarios."
+            }
+        ]
+    },
+    {
+        id: "1911",
+        name: "1911 Airsoft Pistol",
+        price: "Rs 3,500",
+        thumbnail: "https://www.scopesandbarrels.com/cdn/shop/articles/we-are-offering-some-serious-discounts-on-artemis-m1911-airsoft-pistol-scopes-and-barrels_1920x.jpg?v=1677750600",
+        url: "/products/1911",
+        category: "Gas Blowback Pistols",
+        content: [
+            "1 1911 airsoft pistol",
+            "14 round magazine",
+            "Green gas canister"
+        ],
+        reviews: [
+            {
+                author: "Andrew Miller",
+                stars: 5,
+                content: "Fantastic replica. Feels great in the hand."
+            },
+            {
+                author: "Sophie Wilson",
+                stars: 4,
+                content: "Solid performance and good accuracy."
+            }
+        ]
+    },
+    {
+        id: "g36c",
+        name: "G36C Airsoft Gun",
+        price: "Rs 14,500",
+        thumbnail: "https://www.thefirearmblog.com/blog/wp-content/uploads/2016/11/5555.jpg",
+        url: "/products/g36c",
+        category: "Electric Rifles",
+        content: [
+            "1 G36C airsoft gun",
+            "300 round high-cap magazine",
+            "Battery and charger"
+        ],
+        reviews: [
+            {
+                author: "Chris Roberts",
+                stars: 4,
+                content: "Impressive rifle. Lightweight and accurate."
+            },
+            {
+                author: "Emma Thompson",
+                stars: 5,
+                content: "Great ergonomics. Performs well in all conditions."
+            }
+        ]
+    },
+    {
+        id: "m9",
+        name: "M9 Airsoft Pistol",
+        price: "Rs 4,000",
+        thumbnail: "https://www.riflegear.com/images/product/large/2380.jpg",
+        url: "/products/m9",
+        category: "Gas Blowback Pistols",
+        content: [
+            "1 M9 airsoft pistol",
+            "25 round magazine",
+            "Green gas canister"
+        ],
+        reviews: [
+            {
+                author: "William Davis",
+                stars: 4,
+                content: "Solid sidearm. Reliable and easy to use."
+            },
+            {
+                author: "Sophia Thompson",
+                stars: 5,
+                content: "Great value for the price. Performs well in skirmishes."
+            }
+        ]
+    },
+    {
+        id: "g3",
+        name: "G3 Airsoft Gun",
+        price: "Rs 16,000",
+        thumbnail: "https://photo.weaponsystems.net/image/s-carousel/n-fa_ar_g3_p01.jpg/--/img/ws/fa_ar_g3_p01.jpg",
+        url: "/products/g3",
+        category: "Electric Rifles",
+        content: [
+            "1 G3 airsoft gun",
+            "500 round high-cap magazine",
+            "Battery and charger"
+        ],
+        reviews: [
+            {
+                author: "James Wilson",
+                stars: 5,
+                content: "Powerful rifle. Great for outdoor games."
+            },
+            {
+                author: "Sophie Davis",
+                stars: 4,
+                content: "Impressive build quality and reliable performance."
+            }
+        ]
+    },
+    // Add more airsoft guns here...
 ];
 
-export default products
+export default products;
